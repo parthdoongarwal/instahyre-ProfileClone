@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    padding:40px;
+    display:grid;
+    place-items: center;
+    background:#4C5365;
+}
+
+#user-name{
+    text-align: center;
+    color:white;
+    margin-top:20px;
+    font-weight: 500;
+    font-size:25px;
+    letter-spacing: 3px;
+}
+
+#user-image{
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+
+main{
+    padding-left:8%;
+    padding-right:3%;
+    width:60%;
+}
+#Job-Preferences-con{
+margin-top:30px;
+}
+
+#Skills-con{
+    margin-top:30px;
+}
+
+#Work-Experience-con{
+    margin-top:30px;
+}
+
+#Education-con{
+    margin-top:30px;
+
+}
+
+.para{
+    font-size:15px;
+    opacity: 0.90;
+padding:5px;
+
+}
+
+.p-heading{
+    margin-bottom: 20px;
+font-size:18px;
+font-weight: 500;
+border-bottom: 1px solid #DDDDDD;
+padding:8px;
+}
+
+.line{
+    line-height: 30px;
+}
+
+#extra{
+    transform: translateY(-150px);
+    width:40%;
+    margin-top:50px;
+}
+
+
+#popup1{
+    border-radius: 5px;
+    padding:30px;
+background:white;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+width:60%;
+font-size:15px;
+}
+
+
+#popup2{
+    border-radius: 5px;
+    font-size:15px;
+    margin-top:30px;
+    padding:30px;
+    background:white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width:60%;
+}
+
+.btn{
+    padding:10px;
+    width:100%;
+margin-top:30px;
+background:#02BFA0;
+border:0;
+border-bottom: 5px solid #029A82;
+
+border-radius: 5px;
+color:white;
+font-size: 15px;
+
+}
+
+.btn:hover{
+    background:#018771;
+}
+
+#flex{
+    display:flex;
+}
+
+.big-line{
+    opacity: 0.8;
+    line-height:20px;
+    margin-top:30px;
+}
+
+
+.ph{
+    font-weight: 500;
+    font-size:20px;
+    opacity: 0.9;
+}
+
+
+
+.links-image{
+    margin-right:10px;
+    width:50px;
+    height:50px;
+}
+
+@media (max-width:1000px) {
+    #flex{
+        display:block;
+    }
+
+
+    main{
+        padding-left:1%;
+        padding-right:25%;
+        width:100%;
+    }
+    #extra{
+        display:grid;
+        place-items: center;
+        width:100%;
+        transform: translateY(0px);
+    }
+
+    #popup1{
+width:40%;
+    }
+
+    #popup2{
+width:40%;
+margin-bottom:50px;
+    }
+
+
+
+}
+
+
+@media (max-width:765px){
+    #popup1{
+        width:90%;
+            }
+        
+            #popup2{
+        width:90%;
+            }
+        
+}
